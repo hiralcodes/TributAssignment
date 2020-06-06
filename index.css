@@ -1,0 +1,61 @@
+.responsive{
+ max-width: 100%;
+  height: auto;
+}
+
+.maincontent {
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 25% 40%;
+ border-width: 100px;
+  border-color: red;
+}
+
+.title {
+  color: red; 
+  background-color: rgba(233, 212, 96, 1);
+  margin-right:20%;
+  margin-left:20%;
+  text-align: center;
+  font-size: 50px;
+}
+
+.time{
+  text-align: center;
+} 
+.timeline-year {
+  width: 80px;
+  padding: 5px;
+  border: 2px solid gray;
+  background-color: pink;
+  border-radius: 25% 50%; 
+  text-align: center;
+  display:flex;
+  font-size: 30px;
+  margin-left:-20px;
+}
+
+.timeline-desc {
+  margin-left: 100px;
+  display:flex;  
+  font-size: 20px;
+  line-height:2;
+  align-items: flex-start,center;
+  flex-wrap: wrap;
+}
+
+.timeline-container {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.timeline-item {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
